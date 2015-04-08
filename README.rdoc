@@ -1,12 +1,12 @@
 = DiscourseStaticAssets
 
  1.  gem 'discourse_static_assets'
-      in Gemfile
+     in Gemfile
 
- 2.   //= require 'discourse_static_assets'
-in app/assets/stylesheets/application.scss
+ 2. //= require 'discourse_static_assets'
+    in app/assets/stylesheets/application.scss
 
  3. //= require 'discourse_static_assets'
-in app/assets/javascripts/application.coffee
+    in app/assets/javascripts/application.coffee
 
 This project rocks and uses MIT-LICENSE.
