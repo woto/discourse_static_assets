@@ -3,3 +3,26 @@ $secondary: white;
 
 @import 'lightbox';
 @import 'magnific-popup';
+
+.discourse-cooked {
+
+  >*:first-child {
+      margin-top: 0;
+  }
+
+  p {
+    margin: 1em 0px;
+  }
+
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+  }
+  table.md-table tr {
+      border-bottom: 1px solid #eee;
+  }
+  table.md-table td, table.md-table th {
+      padding: 3px 3px 3px 10px;
+  }
+
+}
