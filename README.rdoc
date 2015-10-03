@@ -1,5 +1,8 @@
 = DiscourseStaticAssets
 
+You shoud manually include MagnificPopup in you main project.
+Recommended way is to use Rails Assets.
+
  1.  gem 'discourse_static_assets'
      in Gemfile
 
@@ -8,5 +11,9 @@
 
  3. //= require 'discourse_static_assets'
     in app/assets/javascripts/application.coffee
+     
+
+
+Don't forget to include mkk
 
 This project rocks and uses MIT-LICENSE.
