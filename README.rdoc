@@ -12,8 +12,4 @@ Recommended way is to use Rails Assets.
  3. //= require 'discourse_static_assets'
     in app/assets/javascripts/application.coffee
      
-
-
-Don't forget to include mkk
-
 This project rocks and uses MIT-LICENSE.
